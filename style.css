@@ -1,0 +1,61 @@
+
+
+
+ul{
+	list-style: none;
+	position: fixed;
+	left: 0;
+	width: 25%;
+	height: 900px;
+	background-color: red;
+}
+li{
+	margin-top: 50px;
+	margin-left: 50px;
+	color: white;
+}
+
+.designers{
+	width: 120px;
+	height: 120px;
+}
+
+img{
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	width: 300px;
+	height: 300px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#home:hover{background-color: white;
+
+}
+#showcase:hover{background-color: white;
+} 
+#service:hover {background-color: white;
+}
+#designers:hover {background-color: white;
+}
+#packages:hover {background-color: white;
+}
+#contact:hover {background-color: white;
+}
+
+h2{
+	font-size: 24pt;
+	color: red;
+}
+h1{
+	font-size: 35pt;
+	color: red;
+}
+
+table{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: grey;
+}
