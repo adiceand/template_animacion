@@ -5,122 +5,198 @@
 	<title>template</title>
 	<head>
 		<meta charset="UTF-8">
-		<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 		<link rel="stylesheet" href="style.css">
 		<link rel="stylesheet" href="grid.css">
 		<link rel="stylesheet" href="animate.css">
 	</head>
-<body class="container">
-		<nav class="col-3">
+<body>
+	<div class="row">
+		<nav class="col-2">
 		<ul>
-			<li >Menu</li>
-			<li id="home">Home</li>
-			<li id="showcase"></a> Showcase</li>
-			<li id="service"> Service</li>
-			<li id="designers"> Designers</li>
-			<li id="packages"> Packages</li>
-			<li id="contact"> Contact</li>
+			<li>Company Name</li>
+			<li id="home"> <a href="#Home" title="Home">Home</a></li>
+			<li id="showcase"><a href="#Showcase" title="Showcase">Showcase</a></li>
+			<li id="services"><a href="#Services" title="Services">Services</a></li>
+			<li id="designers"><a href="#Designers" title="Designers">Designers</a></li>
+			<li id="packages"><a href="#Packages" title="Packages">Packages</a></li>
+			<li id="contact"><a href="#Contact" title="Contact">Contact</a></li>
 		</ul>
 		</nav>
-		<section class="col-9">
+		<div class="col-10"><a name="Home"></a>
 			<h1> Interior Design</h1>
-			<h2>Showcase</h2>
-			<img src="https://www.w3schools.com/w3images/kitchenconcrete.jpg">
-			<img src="https://www.w3schools.com/w3images/atrium.jpg">
-			<img src="https://www.w3schools.com/w3images/livingroom.jpg">
-			<img src="https://www.w3schools.com/w3images/bedroom.jpg">
-			<img src="https://www.w3schools.com/w3images/diningroom.jpg">
-			<img src="https://www.w3schools.com/w3images/diningroom.jpg">
+			<h2>Showcase</h2><a name="Showcase"></a>
+			<hr></hr>
+			<img id="fotos" src="https://www.w3schools.com/w3images/kitchenconcrete.jpg">
+			<img id="fotos" src="https://www.w3schools.com/w3images/atrium.jpg">
+			<img id="fotos" src="https://www.w3schools.com/w3images/livingroom.jpg">
+			<img id="fotos" src="https://www.w3schools.com/w3images/bedroom.jpg">
+			<img id="fotos" src="https://www.w3schools.com/w3images/diningroom.jpg">
+			<img id="fotos" src="https://www.w3schools.com/w3images/livingroom2.jpg">
+		</div>
+	</div>
 		
-	<div class="container col-9">
-		<h2>Service</h2>
+	<div class="row">
+	<div class="col-2"></div><a name="Services"></a>
+	<div class="col-10"> 
+		
+		<h2>Services</h2>
+		<hr></hr>
 		<p> We are a interior design service that focus on what's best for your home and what's best for you!
-			Some text about our services - what we do and what we offer. We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		Some text about our services - what we do and what we offer. We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
-		<h2>Designers</h2>
+		
+		<h2>Designers</h2> <a name="Designers"></a>
+		<hr>
 		<p>The best team in the world.
 		We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
 		<p>Our designers are thoughtfully chosen:</p>
-		
+		<div class="row" >
+			<div class="col-3">
 			<img class="designers" src="https://www.w3schools.com/w3images/team2.jpg">
+			<h3>John Doe</h3>
+			<h4>CEO & Founder</h4>
+			<p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+
+			</div>
+			<div class="col-3">
 			<img class="designers" src="https://www.w3schools.com/w3images/team1.jpg">
+			<h3>Jane Doe</h3>
+			<h4>Designer</h4>
+			<p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+			</div>
+			<div class="col-3">
 			<img class="designers" src="https://www.w3schools.com/w3images/team3.jpg">
+			<h3>Mike Ross</h3>
+			<h4>Architect</h4>
+			<p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+			</div>
+		</div>
+			
+		</div>
 
 
-		<h2>Packages</h2>
+		<div class="col-2"></div>
+		<div class="col-10">
+		<h2>Packages</h2> <a name="Packages"> </a>
+		<hr></hr>
 		<P>Some text our prices. Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</P>
-		<table>
-			<tr>
+		<div class="col-2"></div>
+		<table class="Basic col-4">
+			<tr class="uno">
 				<th>Basic</th>
-				<th>Pro</th>
 			
 			</tr>
 			<tr>
 				<th>Floorplanning</th>
-				<th>10 hours support</th>
 				
 			</tr>
+		
 			<tr>
-				<tr>
 				<th>Floorplanning</th>
-				<th>50 hours support</th>
 				
 			</tr>
 
-				<tr>
-				<th>Photography</th>
+			<tr>
 				<th>Photography</th>
 				
 			</tr>
-				<tr>
+			<tr>
 				<th>20% furniture discount</th>
-				<th>50% furniture discount</th>
 				
 			</tr>
-				<tr>
+			<tr>
 				<th>Good deals</th>
-				<th>GREAT deals</th>
+			
 				
 			</tr>
 			<tr>
 				<th>$ 199 per room</th>
+				
+			</tr>
+
+			<tr>
+				<th><button id="btn1">sign up</button></th>
+				
+			</tr>
+		
+
+		</table>
+
+		<table class="Pro col-4">
+			<tr class="dos">
+				<th>Pro</th>
+			
+			</tr>
+			<tr>
+		
+				<th>10 hours support</th>
+				
+			</tr>
+		
+			<tr>
+				
+				<th>50 hours support</th>
+				
+			</tr>
+
+			<tr>
+				
+				<th>Photography</th>
+				
+			</tr>
+			<tr>
+				
+				<th>50% furniture discount</th>
+				
+			</tr>
+			<tr>
+				
+				<th>GREAT deals</th>
+				
+			</tr>
+			<tr>
+				
 				<th>$ 249 per room</th>
 				
 			</tr>
 
 			<tr>
-				<th><button>sign up</button></th>
-				<th><button>sign up</button></th>
+				
+				<th><button id="btn2">sign up</button></th>
 				
 			</tr>
+		
 
-		</table>	
+		</table>
+		</div>	
+	</div>
 
+	
+
+		<div class="col-2"></div><a name="Contact"></a>
+		<div class="col-10">
 		<h2>Contact</h2>
+		<hr></hr>
 		<p>Do you want us to style your home? Fill out the form and fill me in with the details :) We love meeting new people!</p>
 
 		<form>
-		<ul>
-        <li>
             <label for="nombre"> Nombre: </label>
-                <input type="text" id="nombre">
-        </li>
-
-        <li>
+            <input type="text" id="nombre">
+  
             <label for="correo">Correo electrónico: </label>
             <input type="text" id="correo">
-        </li>
-        <li>
+  
             <label for="mensaje"> Mensaje: </label>
             <input type="text" id="mensaje">
-        
-        <li>
-        	<button>enviar</button>
-        </li>
-    </ul>
+
+ 			<button id="btn">Enviar</button>	
+        	
+    
         </form>
-		
+       		
 	</div>
 	</section>
 </body>
